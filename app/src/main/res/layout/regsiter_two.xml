@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/regsiter_topid"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/top_back" >
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_btn_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="注册"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/regsiter_year_select_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regsiter_topid"
+        android:layout_marginTop="20dp" >
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/yearpromptid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="请选择您的年龄"
+                android:textColor="#B3C0C7"
+                android:textSize="14sp" />
+
+            <Spinner
+                  style="@style/spinner_style"
+                android:id="@+id/yearspinnerid"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/yearpromptid"
+                android:layout_marginTop="10dp"
+                 android:animationCache="true"
+                  android:drawSelectorOnTop="true" />
+
+            <TextView
+                android:id="@+id/sexpromptid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/yearspinnerid"
+                android:layout_marginTop="10dp"
+                android:text="请选择您的性别"
+                android:textColor="#B3C0C7"
+                android:textSize="14sp" />
+
+            <Spinner
+                  style="@style/spinner_style"
+                android:id="@+id/sexspinnerid"
+                  android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/sexpromptid"
+                android:layout_marginTop="10dp"
+                android:animationCache="true"
+                android:drawSelectorOnTop="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regsiter_year_select_id"
+        android:layout_marginTop="50dp" >
+
+        <Button
+            android:id="@+id/regsiter_finishid"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/btnbackground"
+            android:textSize="16sp"
+            android:text="完成"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

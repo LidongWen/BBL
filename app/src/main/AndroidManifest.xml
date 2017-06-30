@@ -1,0 +1,305 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beibeilian.beibeilian">
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <application
+        android:name="com.beibeilian.beibeilian.me.application.BBLApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:theme="@style/AppBaseTheme" >
+<!--        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="96c1ca68390b45a7ac1c58537d82d0cd" />-->
+
+        <activity
+            android:name="com.beibeilian.beibeilian.WelcomeActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="bbl_appid"
+            android:value="bbl_1001" />
+        <meta-data
+            android:name="bbl_channelid"
+            android:value="bbl_test_100000" />
+        <meta-data
+            android:name="bbl_channelname"
+            android:value="背背恋推广渠道测试" />
+        <activity
+            android:name="com.beibeilian.beibeilian.LoginActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.MainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.FindPassActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.FindPassInputAnswerActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.RegsiterOneActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.RegsiterTwoActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.predestined.PredestinedActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.predestined.PersionDetailActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.privateletter.PrivateletterActivity"
+            android:launchMode="singleTask" />
+     <!--   <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekFutureWeatherReportActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekMultyLocationActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />-->
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekMatrimonialActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekNearbyActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekSearchActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekSearchResultActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MePhotoItemDeatailActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeDataActivity"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeLonelyconditionActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MePhotoActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeSetActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeMonologueActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeSetFeedBackActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MePhotoImageViewUploadActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeVisitActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeSetEmailActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeAboutActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeRemindActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeUpassActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.privateletter.PrivateletterChatActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.beibeilian.beibeilian.me.dialog.MeDataDialogActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/PublicDialogStyle" />
+        <activity
+            android:name="com.beibeilian.beibeilian.orderdialog.OrderDailog"
+            android:launchMode="singleTask"
+            android:theme="@style/PublicDialogStyle" />
+
+        <service
+            android:name="com.beibeilian.beibeilian.service.CoreIMService"
+            android:process=":remote" />
+
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeAnlianActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeMineAnlianActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeHeadImageActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeMemberActivity"
+            android:launchMode="singleTask" >
+        </activity>
+        <activity
+            android:name="com.beibeilian.beibeilian.photo.activity.QAAddActivity"
+            android:launchMode="singleTask" >
+        </activity>
+      <!--  <activity
+            android:name="com.beibeilian.beibeilian.photo.activity.ImageGridActivity" android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.beibeilian.beibeilian.photo.activity.TestPicActivity" android:launchMode="singleTask"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.beibeilian.beibeilian.photo.activity.PhotoActivity" android:launchMode="singleTask"
+            android:screenOrientation="portrait" />-->
+        <activity
+            android:name="com.beibeilian.beibeilian.photo.activity.AlbumActivity" android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.beibeilian.beibeilian.photo.activity.ImageFile"  android:launchMode="singleTask"/>
+        <activity android:name="com.beibeilian.beibeilian.photo.activity.ShowAllPhoto"  android:launchMode="singleTask"/>
+        <activity android:name="com.beibeilian.beibeilian.photo.activity.GalleryActivity"   android:launchMode="singleTask"/>
+        <activity android:name="com.beibeilian.beibeilian.seek.qaq.CircleMainActivity" android:launchMode="singleTask" >
+        </activity>
+        <activity android:name="com.beibeilian.beibeilian.seek.qaq.ImagePagerActivity" android:launchMode="singleTask"  >
+        </activity>
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekGroupActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekGroupChatActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekGroupUserActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.GPSNaviActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekPoiKeywordSearchActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekNavMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekNearLiveSearchActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekWeatherSearchActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekBusMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.BusRouteActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.BusRouteDetailActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.me.MeAuthActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekThrowBallActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.predestined.Throwball_animationActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.predestined.PickBallActivty"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.SeekMeBallActivity"
+            android:launchMode="singleTask" />
+
+        <activity
+            android:name="com.beibeilian.beibeilian.seek.qaq.MeCircleMainActivity"
+            android:launchMode="singleTask" />
+
+
+
+        <!-- 视频通话 -->
+        <activity
+            android:name="com.beibeilian.beibeilian.im.video.VideoCallActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/horizontal_slide" />
+
+    </application>
+</manifest>

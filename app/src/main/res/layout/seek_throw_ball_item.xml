@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_list_item_background" >
+
+
+    <TextView
+        android:id="@+id/tvname"
+        android:text="张三李四"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/touxiangid"
+        android:textColor="#ea0959"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tvtime"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:textColor="@android:color/black"
+        android:text="20199888999"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvcontent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nicknameid" 
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="35dp"
+                android:text="1月23日，李克强考察灾后重建的云南鲁甸，再三问询围拢人群，有没有没领到工资的农民工？现场陆续有人举手抹泪。总理随即“命令”随行的国务院部门负责同志：农民工欠薪发现一起解决一起。这一问题必须反复抓、抓到底，既治标又要治本，这是政府必尽的责任。"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+</RelativeLayout>

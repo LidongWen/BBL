@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="province">
+        <item>北京</item>
+        <item>上海</item>
+        <item>天津</item>
+        <item>重庆</item>
+        <item>安徽</item>
+        <item>湖南</item>
+        <item>湖北</item>
+        <item>江苏</item>
+        <item>浙江</item>
+        <item>四川</item>
+        <item>贵州</item>
+        <item>甘肃</item>
+        <item>青海</item>
+        <item>山西</item>
+        <item>山东</item>
+        <item>陕西</item>
+        <item>河南</item>
+        <item>黑龙江</item>
+        <item>河北</item>
+        <item>福建</item>
+        <item>云南</item>
+        <item>江西</item>
+        <item>广东</item>
+        <item>辽宁</item>
+        <item>吉林</item>
+        <item>内蒙古</item>
+        <item>广西</item>
+        <item>新疆</item>
+        <item>西藏</item>
+        <item>宁夏</item>
+        <item>海南</item>
+        <item>台湾</item>
+        <item>香港</item>
+        <item>澳门</item>
+    </string-array>
+    <string-array name="beijing_city">
+        <item>东城区</item>
+        <item>西城区</item>
+        <item>崇文区</item>
+        <item>宣武区</item>
+        <item>朝阳区</item>
+        <item>丰台区</item>
+        <item>石景山区</item>
+        <item>海淀区</item>
+        <item>门头沟区</item>
+        <item>房山区</item>
+        <item>通州区</item>
+        <item>顾义区</item>
+        <item>昌平区</item>
+        <item>大兴区</item>
+        <item>怀柔区</item>
+        <item>平古区</item>
+    </string-array>
+    <string-array name="shanghai_city">
+        <item>黄浦区</item>
+        <item>卢港区</item>
+        <item>徐汇区</item>
+        <item>长宁区</item>
+        <item>静安区</item>
+        <item>普陀区</item>
+        <item>闸北区</item>
+        <item>虹口区</item>
+        <item>杨浦区</item>
+        <item>闵行区</item>
+        <item>宝山区</item>
+        <item>嘉定区</item>
+        <item>浦东新区</item>
+        <item>金山区</item>
+        <item>松江区</item>
+        <item>青浦区</item>
+        <item>南汇区</item>
+        <item>奉贤区</item>
+    </string-array>
+    <string-array name="tianjin_city">
+        <item>和平区</item>
+        <item>河东区</item>
+        <item>河西区</item>
+        <item>南开区</item>
+        <item>河北区</item>
+        <item>红桥区</item>
+        <item>塘沽区</item>
+        <item>汉沽区</item>
+        <item>大港区</item>
+        <item>东丽区</item>
+        <item>西青区</item>
+        <item>津南区</item>
+        <item>北辰区</item>
+        <item>武清区</item>
+        <item>宝坻区</item>
+    </string-array>
+    <string-array name="chongqing_city">
+        <item>万州区</item>
+        <item>涪陵区</item>
+        <item>渝中区</item>
+        <item>大渡口区</item>
+        <item>江北区</item>
+        <item>沙坪坝区</item>
+        <item>九龙坡区</item>
+        <item>南岸区</item>
+        <item>北碚区</item>
+        <item>万盛区</item>
+        <item>双桥区</item>
+        <item>渝北区</item>
+        <item>巴南区</item>
+        <item>黔江区</item>
+        <item>长寿区</item>
+    </string-array>
+    <string-array name="anhui_city">
+        <item>合肥</item>
+        <item>芜湖</item>
+        <item>阜阳</item>
+        <item>马鞍山</item>
+        <item>淮北</item>
+        <item>淮南</item>
+        <item>蚌埠</item>
+        <item>铜陵</item>
+        <item>安庆</item>
+        <item>黄山</item>
+        <item>池州</item>
+        <item>宣城</item>
+        <item>亳州</item>
+        <item>六安</item>
+        <item>巢湖</item>
+        <item>宿州</item>
+        <item>滁州</item>
+    </string-array>
+    <string-array name="hunan_city">
+        <item>长沙</item>
+        <item>株洲 </item>
+        <item>湘潭</item>
+        <item>衡阳</item>
+        <item>邵阳</item>
+        <item>岳阳</item>
+        <item>常德</item>
+        <item>张家界</item>
+        <item>益阳</item>
+        <item>郴州</item>
+        <item>永州 </item>
+        <item>怀化</item>
+        <item>娄底</item>
+        <item>湘西</item>
+    </string-array>
+    <string-array name="hubei_city">
+        <item>武汉</item>
+        <item>黄石 </item>
+        <item>襄樊</item>
+        <item>十堰</item>
+        <item>荆州</item>
+        <item>鄂州</item>
+        <item>孝感</item>
+        <item>黄冈</item>
+        <item>咸宁</item>
+        <item>随州</item>
+        <item>恩施 </item>
+    </string-array>
+    <string-array name="jiangsu_city">
+        <item>南京</item>
+        <item>无锡 </item>
+        <item>徐州</item>
+        <item>常州</item>
+        <item>苏州</item>
+        <item>南通</item>
+        <item>连云港</item>
+        <item>淮安</item>
+        <item>盐城</item>
+        <item>扬州</item>
+        <item>镇江 </item>
+        <item>泰州</item>
+        <item>宿迁 </item>
+    </string-array>
+    <string-array name="zhejiang_city">
+        <item>杭州</item>
+        <item>宁波 </item>
+        <item>温州</item>
+        <item>嘉兴</item>
+        <item>湖州</item>
+        <item>绍兴</item>
+        <item>金华</item>
+        <item>衢州</item>
+        <item>舟山</item>
+        <item>台州</item>
+        <item>丽水 </item>
+    </string-array>
+    <string-array name="sichuan_city">
+        <item>成都</item>
+        <item>自贡 </item>
+        <item>攀枝花</item>
+        <item>泸州</item>
+        <item>德阳</item>
+        <item>绵阳</item>
+        <item>广元</item>
+        <item>遂宁</item>
+        <item>内江</item>
+        <item>乐山</item>
+        <item>南充 </item>
+        <item>宜宾</item>
+        <item>广安</item>
+        <item>达州</item>
+        <item>眉山</item>
+        <item>雅安</item>
+        <item>巴中</item>
+        <item>资阳</item>
+        <item>阿坝</item>
+        <item>甘孜</item>
+        <item>凉山 </item>
+    </string-array>
+    <string-array name="guizhou_city">
+        <item>贵阳</item>
+        <item>六盘水 </item>
+        <item>遵义</item>
+        <item>安顺</item>
+        <item>铜仁</item>
+        <item>毕节</item>
+        <item>黔西南</item>
+        <item>黔东南</item>
+        <item>黔南</item>
+    </string-array>
+    <string-array name="gansu_city">
+        <item>兰州</item>
+        <item>嘉谷关 </item>
+        <item>金昌</item>
+        <item>白银</item>
+        <item>天水</item>
+        <item>武威</item>
+        <item>张掖</item>
+        <item>平凉</item>
+        <item>酒泉</item>
+        <item>庆阳</item>
+        <item>定西</item>
+        <item>陇南</item>
+        <item>临夏</item>
+        <item>甘南</item>
+    </string-array>
+    <string-array name="qinghai_city">
+        <item>西宁</item>
+        <item>海东 </item>
+        <item>海北</item>
+        <item>黄南</item>
+        <item>海南</item>
+        <item>果洛</item>
+        <item>玉树</item>
+        <item>海西</item>
+    </string-array>
+    <string-array name="shanxi_city">
+        <item>太原</item>
+        <item>大同 </item>
+        <item>阳泉</item>
+        <item>长治</item>
+        <item>晋城</item>
+        <item>朔州</item>
+        <item>晋中</item>
+        <item>运城</item>
+        <item>忻州</item>
+        <item>临汾</item>
+        <item>吕梁</item>
+    </string-array>
+    <string-array name="shandong_city">
+        <item>济南</item>
+        <item>青岛 </item>
+        <item>淄博</item>
+        <item>枣庄</item>
+        <item>东营</item>
+        <item>烟台</item>
+        <item>潍坊</item>
+        <item>威海</item>
+        <item>济宁</item>
+        <item>泰安</item>
+        <item>日照</item>
+        <item>莱芜</item>
+        <item>临沂</item>
+        <item>德州</item>
+        <item>聊城</item>
+        <item>滨州</item>
+        <item>菏泽</item>
+    </string-array>
+    <string-array name="sanxi_city">
+        <item>西安</item>
+        <item>铜川 </item>
+        <item>宝鸡</item>
+        <item>咸阳</item>
+        <item>渭南</item>
+        <item>延安</item>
+        <item>汉中</item>
+        <item>榆林</item>
+        <item>安康</item>
+        <item>商洛</item>
+    </string-array>
+    <string-array name="henan_city">
+        <item>郑州</item>
+        <item>开封 </item>
+        <item>洛阳</item>
+        <item>平顶山</item>
+        <item>焦作</item>
+        <item>鹤壁</item>
+        <item>新乡</item>
+        <item>安阳</item>
+        <item>濮阳</item>
+        <item>许昌</item>
+        <item>漯河</item>
+        <item>三门峡</item>
+        <item>南阳</item>
+        <item>商丘</item>
+        <item>信阳</item>
+        <item>周口</item>
+        <item>驻马店</item>
+    </string-array>
+    <string-array name="heilongjiang_city">
+        <item>哈尔滨</item>
+        <item>齐齐哈尔</item>
+        <item>鸡西</item>
+        <item>鹤岗</item>
+        <item>双鸭山</item>
+        <item>大庆</item>
+        <item>伊春</item>
+        <item>佳木斯</item>
+        <item>七台河</item>
+        <item>牡丹江</item>
+        <item>黑河</item>
+        <item>绥化</item>
+        <item>大兴安岭</item>
+    </string-array>
+    <string-array name="hebei_city">
+        <item>石家庄</item>
+        <item>唐山</item>
+        <item>秦皇岛</item>
+        <item>邯郸</item>
+        <item>邢台</item>
+        <item>保定</item>
+        <item>张家口</item>
+        <item>承德</item>
+        <item>沧州</item>
+        <item>廊坊</item>
+        <item>衡水</item>
+    </string-array>
+    <string-array name="education">
+        <item>初中及以下</item>
+        <item>高中及中专</item>
+        <item>大专</item>
+        <item>本科</item>
+        <item>硕士及以上</item>
+    </string-array>
+    <string-array name="blood">
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+    <string-array name="income">
+        <item>2000以下</item>
+        <item>2000-5000</item>
+        <item>5000-10000</item>
+        <item>10000-20000</item>
+        <item>20000以上</item>
+    </string-array>
+    <string-array name="height">
+        <item>140cm-150cm</item>
+        <item>150cm-155cm</item>
+        <item>155cm-160cm</item>
+        <item>160cm-165cm</item>
+        <item>165cm-170cm</item>
+        <item>170cm-175cm</item>
+        <item>175cm以上</item>
+    </string-array>
+    <string-array name="weight">
+        <item>30kg-40kg</item>
+        <item>40kg-45kg</item>
+        <item>45kg-50kg</item>
+        <item>50kg-55kg</item>
+        <item>55kg-60kg</item>
+        <item>60kg-70kg</item>
+        <item>70kg以上</item>
+    </string-array>
+    <string-array name="year">
+        <item>16-22</item>
+        <item>22-28</item>
+        <item>28-35</item>
+        <item>35-40</item>
+        <item>40以上</item>
+    </string-array>
+    <string-array name="job">
+        <item>在校学生</item>
+        <item>军人</item>
+        <item>私营业主</item>
+        <item>企业职工</item>
+        <item>企业劳动者</item>
+        <item>农业劳动者</item>
+        <item>政府机关/事业单位工作者</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="charm">
+        <item>笑容</item>
+        <item>眉毛</item>
+        <item>眼睛</item>
+        <item>头发</item>
+        <item>鼻梁</item>
+        <item>嘴唇</item>
+        <item>牙齿</item>
+        <item>颈部</item>
+        <item>耳朵</item>
+        <item>手</item>
+        <item>胳膊</item>
+        <item>胸部</item>
+        <item>脚</item>
+        <item>腿</item>
+        <item>臀部</item>
+    </string-array>
+    <string-array name="havehouse">
+        <item>已购房</item>
+        <item>与父母同住</item>
+        <item>租房</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="placeofother">
+        <item>能</item>
+        <item>看情况</item>
+        <item>不能</item>
+    </string-array>
+    <string-array name="likeoppositesex">
+        <item>成熟魅力</item>
+        <item>落落大方</item>
+        <item>眉清目秀</item>
+        <item>性感妩媚</item>
+        <item>善解人意</item>
+        <item>雍容华贵</item>
+        <item>活泼开朗</item>
+        <item>娇小可爱</item>
+        <item>温柔体贴</item>
+    </string-array>
+    <string-array name="wantchild">
+        <item>想</item>
+        <item>不想</item>
+        <item>还没想好</item>
+    </string-array>
+    <string-array name="marriagestatus">
+        <item>未婚</item>
+        <item>离异</item>
+        <item>交友</item>
+        <item>同性</item>
+        <item>租友</item>
+        <item>其他</item>
+    </string-array>
+
+    <array name="item_messagemenu">
+        <item>删除</item>
+    </array>
+
+</resources>

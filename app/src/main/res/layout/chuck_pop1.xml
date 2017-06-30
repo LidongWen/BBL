@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/throw_ball"
+    android:id="@+id/chuck_pop_layout"
+    >
+    
+    <RelativeLayout 
+        android:id="@+id/chuck_bottle_layout"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content" 
+    	android:layout_marginTop="120dp"
+    	android:layout_marginRight="30dip"
+    	android:layout_centerHorizontal="true"
+        >
+    
+     <ImageView 
+        android:id="@+id/chuck_empty2"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/ballhj"
+        />
+        
+    </RelativeLayout>
+
+   <!--  <ImageView
+        android:id="@+id/chuck_spray"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:src="@drawaball_fzll50"
+        android:visibility="gone" /> -->
+
+</RelativeLayout>

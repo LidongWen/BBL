@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@android:color/white"
+    >
+
+    <RelativeLayout
+        android:id="@+id/regsiter_topid"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/top_back" >
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_btn_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="注册"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regsiter_topid"
+        android:layout_marginTop="20dp" >
+
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/single_line"
+            android:hint="请输入您的帐号(数字、字母)" 
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+              android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/passid"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/emailid"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/single_line"
+            android:hint="请输入您的密码" 
+             android:textSize="16sp"
+             android:textColor="@android:color/black"
+            android:inputType="textPassword"
+            />
+        <Button
+            android:id="@+id/regsiter_xyb_id"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/passid"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btnbackground"
+            android:text="下一步"
+            android:textSize="16sp"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>

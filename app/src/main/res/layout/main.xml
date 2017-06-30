@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:background="@color/white"
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/main_tab_group"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:background="@color/tab_main_bttom_back"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:paddingTop="1dip" >
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@null" >
+
+                <RelativeLayout
+                    android:id="@+id/tab_one_back_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tab_everyone_press_back" >
+
+                    <ImageView
+                        android:id="@+id/tab_one_id"
+                        style="@style/Tab_Button_back"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/predestined_press" />
+
+                    <TextView
+                        android:id="@+id/tab_one_text_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:text="背背恋"
+                        android:textColor="@android:color/white" />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@null" >
+
+                <RelativeLayout
+                    android:id="@+id/tab_two_back_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <ImageView
+                        android:id="@+id/tab_two_id"
+                        style="@style/Tab_Button_back"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/private_msg_nom" />
+
+                    <TextView
+                        android:id="@+id/tab_two_text_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:text="私信"
+                        android:textColor="@android:color/white" />
+
+                    <TextView
+                        android:id="@+id/tab_two_unread"
+                        android:layout_width="14dip"
+                        android:layout_height="14.0dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="12.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:background="@drawable/list_newmessage2"
+                        android:includeFontPadding="false"
+                        android:shadowColor="#19000000"
+                        android:shadowDy="1.0"
+                        android:shadowRadius="1.0"
+                         />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@null" >
+
+                <RelativeLayout
+                    android:id="@+id/tab_three_back_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <ImageView
+                        android:id="@+id/tab_three_id"
+                        style="@style/Tab_Button_back"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/seek_nom" />
+
+                    <TextView
+                        android:id="@+id/tab_three_text_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:text="发现"
+                        android:textColor="@android:color/white" />
+                     <TextView
+                        android:id="@+id/tab_three_unread"
+                        android:layout_width="14dip"
+                        android:layout_height="14.0dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="12.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:background="@drawable/list_newmessage2"
+                        android:includeFontPadding="false"
+                        android:shadowColor="#19000000"
+                        android:shadowDy="1.0"
+                        android:shadowRadius="1.0"
+                         />
+                </RelativeLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@null" >
+
+                <RelativeLayout
+                    android:id="@+id/tab_four_back_id"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+
+                    <ImageView
+                        android:id="@+id/tab_four_id"
+                        style="@style/Tab_Button_back"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/me_nom" />
+
+                    <TextView
+                        android:id="@+id/tab_four_text_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="25dp"
+                        android:text="我的"
+                        android:textColor="@android:color/white" />
+                    
+                     <TextView
+                        android:id="@+id/tab_four_unread"
+                        android:layout_width="14dip"
+                        android:layout_height="14.0dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="12.0dip"
+                        android:layout_marginTop="5.0dip"
+                        android:background="@drawable/list_newmessage2"
+                        android:includeFontPadding="false"
+                        android:shadowColor="#19000000"
+                        android:shadowDy="1.0"
+                        android:shadowRadius="1.0"
+                         />
+                    
+                </RelativeLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+<com.amap.api.maps.MapView
+        android:id="@+id/map"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </com.amap.api.maps.MapView>
+</TabHost>

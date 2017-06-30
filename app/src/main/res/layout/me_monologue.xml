@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white" >
+
+    <RelativeLayout
+        android:id="@+id/me_dubai_topid"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/top_back" >
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_btn_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="内心独白"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/duibai_save_btnid"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btnbackground"
+            android:text="保存"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/me_duibai_content_id"
+        android:layout_width="fill_parent"
+        android:layout_height="200dip"
+        android:layout_below="@+id/me_dubai_topid"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/single_line"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="请写下您内心的心声..."
+        android:inputType="textMultiLine"
+        android:paddingTop="5dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/me_duibai_content_id"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="80dp"
+        android:text="温馨提示：\n\n为了您的财产安全，请勿填写微信号、QQ号、手机号等联系方式，如若填写，经过审核，将不予显示。"
+        android:textColor="@color/gray"
+        android:textSize="12sp" />
+
+</RelativeLayout>

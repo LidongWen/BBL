@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_hight"
+    android:background="@color/top_bg_color" >
+
+   <RelativeLayout
+        android:id="@+id/me_data_topid"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@color/top_back" >
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_btn_back" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"           
+            android:id="@+id/ivTitleName"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+        <ProgressBar
+            android:id="@+id/connectid"
+          style="@android:style/Widget.ProgressBar.Large"
+            android:visibility="gone"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@+id/showdetail_id"
+            android:indeterminateDrawable="@drawable/rfca_progressbar_small" />
+        <Button
+            android:id="@+id/showdetail_id"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btnbackground"
+            android:text="群人员"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+</RelativeLayout>
